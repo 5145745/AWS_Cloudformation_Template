@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description: >-
-  AWS CloudFormation Sample Template ELBWithLockedDownAutoScaledInstances:
-  Create a load balanced, Auto Scaled sample website where the instances are
+  AWS CloudFormation Template ELBWithLockedDownAutoScaledInstances:
+  Create a load balanced, Auto Scaled website where the instances are
   locked down to only accept traffic from the load balancer. This example
   creates an Auto Scaling group behind a load balancer with a simple health
   check. The web site is available on port 80, however, the instances can be
@@ -455,7 +455,7 @@ Resources:
                   - /cloudformation_graphic.png" alt="AWS CloudFormation Logo"/>
                   - >-
                     <h1>Congratulations, you have successfully launched the AWS
-                    CloudFormation sample.</h1>
+                    CloudFormation.</h1>
               mode: '000644'
               owner: root
               group: root
